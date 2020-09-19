@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*#build {
+background: url("https://github.com/FACEPrep-ProGrad/project-builder-html-css-npm/blob/master/assets/background2.png?raw=true");
+}
+
+*/
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  background-color: white;
+}
+.nav-link {
+  color: black;
+  font-weight: 800;
+  font-size: 2em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.logoimg {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.a img:hover {
+  filter: grayscale(100%);
+}
+.logoimg:hover {
+  color: grey;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+nav ul li {
+  margin: 0 20px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+section nav ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+.npm {
+  cursor: pointer;
+}
+.search {
+  line-height: 4em;
+  width: 700px;
+  background-color: rgb(228, 224, 224);
+  border: black;
+}
+
+.Search {
+  background-color: black;
+  color: white;
+  font-size: 1.8em;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 13px 30px;
+}
+
+.signup {
+  text-decoration: none;
+  color: black;
+  border: 2px solid rgb(170, 170, 170);
+  padding: 10px 27px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.signup:hover {
+  color: rgb(214, 210, 210);
+}
+.logup {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+.logup:hover {
+  color: rgb(214, 210, 210);
+}
+/*
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav ul li {
+    margin: 5px;
+    font-size: 0.8em;
+    padding: 5px;
+    color: black;
+    font-weight: 400;
+}
+
+.logo {
+    font-size: 200;
+}
+
+
+.nav-link {
+    font-weight: 300;
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+
+}
+
+li {
+    color: black;
+}
+
+
+*/
+
+#build {
+  padding: 20px;
+  margin: 20px 0;
+  color: white;
+  text-align: center;
+  background: url("https://github.com/FACEPrep-ProGrad/project-builder-html-css-npm/blob/master/assets/background2.png?raw=true");
+}
+
+#background {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background: url("https://github.com/FACEPrep-ProGrad/project-builder-html-css-npm/blob/master/assets/background2.png?raw=true");
+  padding-bottom: 15px;
+}
+
+#background p {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.linka {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  padding: 20px 60px;
+  background-color: red;
+  border-bottom: solid 5px rgb(240, 225, 24);
+}
+
+.linka:hover {
+  background-color: rgb(255, 102, 102);
+  color: black;
+}
+
+div ul {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+div ul li {
+  margin: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 20px;
+
+  align-items: center;
+  margin: 10px;
+  padding-left: 20px;
+  list-style: none;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.linkb {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  padding: 20px 60px;
+  border-bottom: 5px solid purple;
+
+  background-color: rgb(255, 0, 157);
+}
+
+.linkb:hover {
+  background-color: pink;
+  color: black;
+}
+
+#bring {
+  text-align: center;
+  margin: 30px;
+  padding: 50px;
+}
+
+#bring h2 {
+  margin: 20px;
+}
+
+#bring p {
+  margin: 10px;
+  padding-bottom: 30px;
+}
+p {
+  margin: 20px 0;
+  padding-bottom: 10px;
+}
+
+#article {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+}
+
+#align ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  align-content: center;
+}
+#align ul li {
+  padding: 10px;
+}
+
+.learn {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 10px 15px;
+  letter-spacing: 0.7mm;
+}
+
+#open {
+  background: url("https://github.com/FACEPrep-ProGrad/project-builder-html-css-npm/blob/master/assets/background.png?raw=true");
+  color: white;
+  margin: 20px 0;
+  text-align: center;
+  align-content: center;
+  padding: 50px;
+}
+
+#hr {
+  align-content: center;
+  width: 10cm;
+}
+
+#Grate {
+  text-align: center;
+  align-items: center;
+  margin: 50px;
+  padding-bottom: 20px;
+}
+
+#company {
+  text-align: center;
+  align-items: center;
+  width: 500px;
+  padding: 0 400px;
+}
+
+footer {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 0;
+
+  list-style: none;
+}
+footer ul li {
+  color: black;
+  list-style: none;
+
+  margin: 10px 0;
+}
+/*#docx h5 ul {
+  text-decoration: none;
+  margin: 5px;
+  color: black;
+  list-style: none;
+}
+
+.doc ul li {
+  text-decoration: none;
+  color: black;
+}
+/*#background div ul li {
+  display: flex;
+
+  text-decoration: none;
+  text-align: center;
+  background-color: red;
+  cursor: pointer;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  color: white;
+
+  padding: 2px;
+}
+*/
+.l h1,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 7em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.8em;
+  margin: 10px 0;
+}
+h5 {
+  font-size: 1.2em;
+
+  letter-spacing: 0.5px;
+}
+p {
+  font-size: 1.7em;
+}
